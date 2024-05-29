@@ -1,0 +1,55 @@
+.texto-menor {
+    font-size: 13px;
+}
+
+.div-facilidades {
+    width: 325px;
+}
+
+@media(min-width: 1024px){
+    .margem-rodape {
+        background-color: rgb(33, 37, 41, 1);
+        margin: 4rem;
+        margin-inline: 30rem;
+        padding-inline: 2rem;
+    }
+}
+
+@media(max-width: 576px) {
+    .margem-rodape {
+        background-color: rgb(33, 37, 41, 1);
+        margin-inline: 2rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 1199px){
+    .margem-rodape {
+        background-color: rgb(33, 37, 41, 1);
+        margin: 3rem;
+        padding-inline: 1.5rem;
+    }
+}
+
+.cor_verde_lima {
+    color: #DAFF01;
+}
+
+.cor_lilas_de_fundo {
+    background-color:  #9353FF;
+    border: #9353FF;
+}
+
+.fundo_roxo:hover {
+    background-color: #A466E0;
+}
+
+.cor_da_pagina {
+    background-color: #EEEEEE;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
